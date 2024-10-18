@@ -1,0 +1,12 @@
+train: C:/bin/data_v2/train/images
+val: C:/bin/data_v2/valid/images
+test: C:/bin/data_v2/test/images
+nc: 2
+names: ['general wastetrash bin', 'plastic trash bin']
+
+roboflow:
+  workspace: test-6nxn1
+  project: trash-l1tzp
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-6nxn1/trash-l1tzp/dataset/4

@@ -1,0 +1,13 @@
+train: C:/bin/trash_yolo/train/images
+val: C:/bin/trash_yolo/valid/images
+test: C:/bin/trash_yolo/test/images
+
+nc: 2
+names: ['general wastetrash bin', 'plastic trash bin']
+
+roboflow:
+  workspace: george-kochiashvili
+  project: trash-l1tzp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/george-kochiashvili/trash-l1tzp/dataset/1
